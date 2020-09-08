@@ -1,0 +1,26 @@
+{
+  "name": "nextwp",
+  "version": "0.1.0",
+  "description": "Next with Wordpress",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.2",
+    "newsapi": "^2.4.1",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "isomorphic-unfetch": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export"
+  },
+  "author": "",
+  "license": "ISC"
+}
